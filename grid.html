@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid experiment-9</title>
+</head>
+<body>
+    <style>
+        *{
+            margin:0%;
+            padding:0%;
+        }
+       .con{
+        display:grid;
+        grid-template-columns: 150px 150px 150px ;
+        grid-template-rows: 150px 150px 150px 150px;
+        
+
+
+       }
+       .header{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        background-color: lightsalmon;
+
+       }
+       .main{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background-color: aqua;
+
+       }
+       .sidebar{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        background-color: crimson;
+
+       }
+       .footer{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        background-color: forestgreen;
+       }
+
+
+
+    </style>
+
+<div class="con">
+    <div class="header">HEADER</div>
+    <div class="main">MAIN</div>
+    <div class="sidebar">SIDEBAR</div>
+    <div class="footer">FOOTER</div>
+
+
+
+
+</div>
+    
+</body>
+</html>
